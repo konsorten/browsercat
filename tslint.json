@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended"],
+    "jsRules": {},
+    "rules": {
+        // use " instead of ''
+        "quotemark": [true, "double", "jsx-double"],
+        // prefer switch to if-statements if possible
+        "prefer-switch": [true, { "min-cases": 2 }],
+        // tab = 4 spaces
+        "indent": [true, "spaces", 4],
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+        "max-classes-per-file": [true, 5, "exclude-class-expressions"],
+        "curly": [true, "as-needed"],
+
+        // deactivate validation of member ordering (private, public...)
+        "member-ordering": false
+    },
+    "rulesDirectory": []
+}

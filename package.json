@@ -1,0 +1,18 @@
+{
+  "name": "browsercat",
+  "version": "0.0.1",
+  "description": "Useful snippets you'll need in every frontend project",
+  "repository": "https://github.com/konsorten/typescript-frontend-helpers.git",
+  "author": "marvin + konsorten GmbH <github@konsorten.de>",
+  "license": "MIT",
+  "main": "./browsercat.js",
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.36",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.9.1",
+    "typedoc": "^0.11.1"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
+}
